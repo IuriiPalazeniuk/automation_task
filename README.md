@@ -64,6 +64,7 @@ public class RunCucumberTest {
 ```bash
    'mvn clean test mvn clean test -Dcucumber.options="--tags @API"' or 'mvn clean test mvn clean test -Dcucumber.options="--tags @UI"'
    'mvn clean test' - will run all tests
+   'mvn clean test Ddriver="firefox"' - will run Firefox browser (chrome by default)
 ```
 ## Report
  * Report is located in target/cucumber/index.html
