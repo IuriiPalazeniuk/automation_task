@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_automation_task_1732888587943-pr-trigger-input-set
+  identifier: Build_automation_task_1732888587943prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_automation_task_1732888587943
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
